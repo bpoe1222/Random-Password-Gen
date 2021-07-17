@@ -38,7 +38,7 @@ function generatePassword() {
   while(confirmSpecial === false && confirmNumber === false && confirmLower === false && confirmUpper === false) {
     window.alert("You must choose at least one parameter.");
     var confirmSpecial = window.confirm("Click OK to confirm if you would like to include special characters.");
-  var confirmNumber = window.confirm("Click OK to confirm if you would like to include a number.");
+  var confirmNumber = window.confirm("Click OK to confirm if you would like to include numbers.");
   var confirmLower = window.confirm("Click OK to confirm if you would like to include lower case characters.");
   var confirmUpper = window.confirm("Click OK to confirm if you would like to include upper case characters.");
   };
